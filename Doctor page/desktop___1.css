@@ -1,0 +1,568 @@
+/*
+	@name desktop___1
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 2458px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+#_bg__desktop___1 {
+	top: 0px;
+	left: 0px;
+	width: 1600px;
+	height: 2458px;
+	background:rgba(255,255,255,1);
+}
+
+
+#screenshot_from_2023_05_22_00_48_07_1 {
+	top: 168px;
+	left: -45px;
+	width: 1519px;
+	height: 694px;
+}
+
+
+#screenshot_from_2023_05_22_00_48_07_2 {
+	top: 843px;
+	left: -71px;
+	width: 1519px;
+	height: 694px;
+}
+
+
+#screenshot_from_2023_05_22_00_48_07_3 {
+	top: 1520px;
+	left: -37px;
+	width: 1519px;
+	height: 694px;
+}
+
+
+#_1995914_1 {
+	top: 328px;
+	left: 979px;
+	width: 347px;
+	height: 312px;
+	animation: slide 1.5s ease-in-out;
+}
+
+@keyframes slide {
+ 0% {
+   transform: translateX(100%);
+   opacity: 0;
+ }
+ 100% {
+   transform: translateX(0);
+   opacity: 1;
+ }
+}
+
+#search {
+	top: 209px;
+	left: 1237px;
+	width: 25px;
+	height: 25px;
+}
+
+#vector {
+	top: 0px;
+	left: 0px;
+	width: 25px;
+	height: 25px;
+}
+
+
+#rectangle_1 {
+	top: -6px;
+	left: 0px;
+	width: 1446px;
+	height: 251px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(255,255,255,0);
+	background: -webkit-linear-gradient(-180deg , rgba(204,183,229,1) 0%, rgba(204,183,229,0.6) 0%, rgba(204,183,229,0.82) 47%, rgba(204,183,229,0.75) 71%, rgba(204,183,229,0.75) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0) 100%);
+	background: -o-linear-gradient(-180deg , rgba(204,183,229,1) 0%, rgba(204,183,229,0.6) 0%, rgba(204,183,229,0.82) 47%, rgba(204,183,229,0.75) 71%, rgba(204,183,229,0.75) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0) 100%);
+	background: -moz-linear-gradient(-180deg , rgba(204,183,229,1) 0%, rgba(204,183,229,0.6) 0%, rgba(204,183,229,0.82) 47%, rgba(204,183,229,0.75) 71%, rgba(204,183,229,0.75) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0) 100%);
+	background: -ms-linear-gradient(-180deg , rgba(204,183,229,1) 0%, rgba(204,183,229,0.6) 0%, rgba(204,183,229,0.82) 47%, rgba(204,183,229,0.75) 71%, rgba(204,183,229,0.75) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0) 100%);
+	background: linear-gradient(-180deg , rgba(204,183,229,1) 0%, rgba(204,183,229,0.6) 0%, rgba(204,183,229,0.82) 47%, rgba(204,183,229,0.75) 71%, rgba(204,183,229,0.75) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0.83) 100%, rgba(204,183,229,0) 100%);
+}
+
+
+#homepage {
+	top: 206px;
+	left: 17px;
+	width: 169.5px;
+	height: 55.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 23px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#about_us {
+	top: 206px;
+	left: 187px;
+	width: 169.5px;
+	height: 70.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 23px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#contact_us {
+	top: 209px;
+	left: 448px;
+	width: 166px;
+	height: 68px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#contact_us_ek1 {
+	top: 209px;
+	left: 448px;
+	width: 166px;
+	height: 68px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 20px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#service {
+	top: 206px;
+	left: 328px;
+	width: 169.5px;
+	height: 70.5px;
+	overflow: hidden;
+	font-family: Inter;
+	font-size: 23px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#we_care {
+	top: 56px;
+	left: 23px;
+	width: 435px;
+	height: 164px;
+	overflow: hidden;
+	font-family: Esteban;
+	font-size: 70px;
+	text-align: left;
+	-webkit-text-stroke-width: px;
+	-webkit-text-stroke-color: #;
+	background-image: linear-gradient(-180deg , rgba(21.04,8.55,97.75,1) 0%, rgba(54.62,40.34,142.38,0.48) 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	color: #000000;
+	animation: slideIn 1.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+
+#line_1 {
+	top: 210px;
+	left: 1286px;
+	width: 40.01px;
+	height: 1px;
+	
+	-ms-transform:rotate(-1.43deg);
+	-o-transform:rotate(-1.43deg);
+	-webkit-transform:rotate(-1.43deg);
+	-moz-transform:rotate(-1.43deg);
+	transform:rotate(-1.43deg);
+	-ms-box-shadow:inset 0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:inset 0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:inset 0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:inset 0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:inset 0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:#000000;
+}
+
+
+#line_3 {
+	top: 226.67px;
+	left: 1286.07px;
+	width: 40px;
+	height: 1px;
+}
+
+
+#line_2 {
+	top: 219px;
+	left: 1286px;
+	width: 40.01px;
+	height: 1px;
+	
+	-ms-transform:rotate(-1.43deg);
+	-o-transform:rotate(-1.43deg);
+	-webkit-transform:rotate(-1.43deg);
+	-moz-transform:rotate(-1.43deg);
+	transform:rotate(-1.43deg);
+	background:#000000;
+}
+
+
+#line_4 {
+	top: 236px;
+	left: 18px;
+	width: 114px;
+	height: 0px;
+}
+
+
+#symbol_of_caduceus_removebg_preview_1 {
+	top: 18px;
+	left: 357px;
+	width: 183px;
+	height: 175px;
+}
+
+
+#your_health__our_passion___caring_healthcare_ {
+	top: 29px;
+	left: 1159px;
+	width: 517px;
+	height: 160px;
+	overflow: hidden;
+	font-family: Gudea;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: left;
+	color:#020107;
+    animation: slide 1.5s ease-in-out;
+ }
+
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+#rectangle_6 {
+	top: 1666px;
+	left: -5px;
+	width: 1450px;
+	height: 40px;
+	background:rgba(245,245,245,1);
+}
+
+
+#rectangle_14 {
+	top: 738px;
+	left: 177px;
+	width: 1096px;
+	height: 829px;
+	-ms-border-radius: 103px;
+	-o-border-radius: 103px;
+	-moz-border-radius: 103px;
+	-webkit-border-radius: 103px;
+	border-radius: 103px;
+	background:rgba(245,245,245,1);
+}
+
+
+#welcome_to_we_care {
+	top: 354px;
+	left: 75px;
+	width: 989px;
+	height: 164px;
+	overflow: hidden;
+	font-family: Carrois Gothic;
+	font-size: 80px;
+	text-align: left;
+	color: rgba(0,0,0,0.25);
+	opacity: 0.25;
+}
+#welcome_to_we_care:before {
+
+	content: "WELCOME TO WeCare";
+	position: absolute;
+	top: 0px;
+	left: 4px;
+	color: #534792;
+}
+
+
+#rectangle_7 {
+	opacity:0.28999999165535;
+	top: 755px;
+	left: 199px;
+	width: 1048px;
+	height: 795px;
+	-ms-border-radius: 100px;
+	-o-border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+	background:rgba(208,131,221,0.29);
+}
+
+
+#rectangle_2 {
+	opacity:0.5799999833107;
+	top: 1388px;
+	left: 401px;
+	width: 253px;
+	height: 74px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(138,119,202,0.58);
+}
+
+
+#rectangle_13 {
+	opacity:0.5799999833107;
+	top: 1388px;
+	left: 750px;
+	width: 253px;
+	height: 74px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	background:rgba(138,119,202,0.58);
+}
+
+
+#rectangle_9 {
+	opacity:0.23999999463558;
+	top: 956px;
+	left: 437px;
+	width: 480px;
+	height: 94px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(146,134,239,0.24);
+}
+
+
+#rectangle_10 {
+	opacity:0.23999999463558;
+	top: 1096px;
+	left: 437px;
+	width: 480px;
+	height: 94px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(146,134,239,0.24);
+}
+
+
+#rectangle_12 {
+	opacity:0.23999999463558;
+	top: 1096px;
+	left: 437px;
+	width: 480px;
+	height: 94px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(146,134,239,0.24);
+}
+
+
+#rectangle_11 {
+	opacity:0.23999999463558;
+	top: 1236px;
+	left: 437px;
+	width: 480px;
+	height: 94px;
+	-ms-border-radius: 30px;
+	-o-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-webkit-border-radius: 30px;
+	border-radius: 30px;
+	background:rgba(146,134,239,0.24);
+}
+
+
+
+
+
+#login {
+	top: 1389px;
+	left: 470px;
+	width: 198.5px;
+	height: 76.5px;
+	overflow: hidden;
+	font-family: Hind;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+#loginButton {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	top: 1000px;
+	left: 750px;
+	width: 198.5px;
+	height: 76.5px;
+	overflow: hidden;
+	font-family: Hind;
+	font-size: 37px;
+	font-weight: bold;
+	text-align: left;
+	color: #500386;
+	text-decoration: underline;
+	/* Add any additional custom styling you want for the button */
+}
+
+#loginButton:hover {
+	color: #530153; /* Change the color on hover */
+	text-decoration: none; /* Remove the underline on hover */
+	/* Add any additional custom styling you want for the hover effect */
+}
+
+#HSID{
+	height: 35px;
+	width: 390px;
+	border: 5px solid rgb(23, 50, 204);
+	border-radius: 10px;
+	color: black;
+}
+#DOCID{
+	height: 35px;
+	width: 390px;
+	color: rgba(0, 0, 0, 0.673);
+	border: 5px solid rgb(23, 50, 204);
+	border-radius: 10px;	
+}
+#pass{
+	height: 35px;
+	width: 390px;
+	border: 5px solid rgb(23, 50, 204);
+	border-radius: 10px;
+}
+
+#sign_up {
+	top: 1401px;
+	left: 813px;
+	width: 198.5px;
+	height: 76.5px;
+	overflow: hidden;
+	font-family: Hind;
+	font-size: 35px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#hospital_doctor_login_portal_ {
+	top: 820px;
+	left: 423px;
+	width: 566px;
+	height: 92px;
+	overflow: hidden;
+	font-family: Hind;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color:#000000;
+}
+
+
+#__empowering_health_partnerships__connect__communicate__and_thrive__ {
+	top: 504px;
+	left: 88px;
+	width: 715px;
+	height: 157px;
+	overflow: hidden;
+	font-family: Hind;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	color:#554D81;
+}
+
+
+#forgot_password_ {
+	top: 1485px;
+	left: 785px;
+	width: 376.5px;
+	height: 62.5px;
+	overflow: hidden;
+	font-family: Hind;
+	font-size: 35px;
+	text-align: left;
+	color:#000000;
+}
+
+
+#screenshot_from_2023_05_22_01_25_11_1 {
+	top: 1814px;
+	left: 3px;
+	width: 1437px;
+	height: 644px;
+}
+
+
+#screenshot_from_2023_05_22_04_54_07_1 {
+	top: 1965px;
+	left: 750px;
+	width: 648px;
+	height: 190px;
+}
+
+
+
+/* Add your custom CSS here */
