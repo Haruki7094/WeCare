@@ -14,6 +14,7 @@ firebase.initializeApp(firebaseConfig);
 
 // Reference messages collection
 var messagesRef = firebase.database().ref("messages");
+const db = firebase.firestore();
 
 // Listen for form submit
 // document.getElementsByClassName("rounded-bl-lg bg-red-500 font-size 52px text-white py-7 px-36 text-2xl hover:bg-green-500 hover:text-white mx-7 mt-2 mb-5").addEventListener("click", login);
@@ -32,20 +33,32 @@ function redirectToWebsite() {
 
 
 // Not runing
-function login() {
+
+async function login() {
+              var p_name = getInputVal("HSID");
+              var gender = getInputVal("GEN");
+              var ad_ca_no = getInputVal("Adhaar");
+              var p_no = getInputVal("phone");
+              var age = getInputVal("age");
+              var med = getInputVal("alpha");
+              var bp = getInputVal("BP");
+              var lab_test = getInputVal("labtest");
+              var doc_reg = getInputVal("doc");
+            try {
+                const docRef = await db.collection("users").add({
+                  name=
+
+                });
+                console.log("Document written with ID: ", docRef.id);
+            } catch (error) {
+                console.error("Error adding document: ", error);
+            }
+        }
   // Get values
-  var p_name = getInputVal("HSID");
-  var gender = getInputVal("GEN");
-  var ad_ca_no = getInputVal("Adhaar");
-  var p_no = getInputVal("phone");
-  var age = getInputVal("age");
-  var med = getInputVal("alpha");
-  var bp = getInputVal("BP");
-  var lab_test = getInputVal("labtest");
-  var doc_reg = getInputVal("doc");
+
 
   // Save message
-  saveMessage(p_name,gender,ad_ca_no,p_no,age,med,bp,lab_test,doc_reg);
+  // saveMessage(p_name,gender,ad_ca_no,p_no,age,med,bp,lab_test,doc_reg);
   // saveMessage(p_name,gender,ad_ca_no,p_no,age,med,bp,lab_test,doc_reg);
 
   // Show alert
@@ -67,7 +80,7 @@ function login() {
   // document.getElementById("labtest").value = "";
   // document.getElementById("doc").value = "";
 
-}
+
 
 // Function to get form values
 function getInputVal(id) {
@@ -75,19 +88,19 @@ function getInputVal(id) {
 }
 
 // Save message to Firebase
-function saveMessage(p_name,gender,ad_ca_no,p_no,age,med,bp,lab_test,doc_reg){
-  var newMessageRef = messagesRef.push();
-  newMessageRef.set({
-    p_name: p_name,
-    gender: gender,
-    ad_ca_no: ad_ca_no,
-    p_no: p_no,
-    age:age,
-    med:med,
-    bp:bp,
-    lab_test:lab_test,
-    doc_reg:doc_reg,
+// function saveMessage(p_name,gender,ad_ca_no,p_no,age,med,bp,lab_test,doc_reg){
+//   var newMessageRef = messagesRef.push();
+//   newMessageRef.set({
+//     p_name: p_name,
+//     gender: gender,
+//     ad_ca_no: ad_ca_no,
+//     p_no: p_no,
+//     age:age,
+//     med:med,
+//     bp:bp,
+//     lab_test:lab_test,
+//     doc_reg:doc_reg,
 
 
-  });
-}
+//   });
+// }
